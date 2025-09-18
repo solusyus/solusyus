@@ -1,1 +1,24 @@
+.tippy-box[data-theme~='my-tooltip'] {
+  background-color: #4f4f4f;
+  color: #ffffff;
+  font-family: ebgaramond;
+  font-size: 0.8rem;
+  padding: 0;
+  border-radius: .25rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  margin-left: 0 !important;
+  margin-right: 4vw;
+}
 
+.tippy-box[data-theme~='my-tooltip'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: transparent;
+}
+
+.tippy-box[data-theme~='my-tooltip'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: transparent;
+}
+
+.tooltip {
+  text-decoration: dotted underline #1e66f5;
+}
