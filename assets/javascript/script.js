@@ -25,3 +25,13 @@ document.getElementById("scrollTop").onclick = () => {
 document.getElementById("scrollBottom").onclick = () => {
   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 };
+
+// Tippy
+tippy('.tooltip', {
+    placement: 'top',
+    allowHTML: true,
+    maxWidth: 300,
+    animation: 'shift-away',
+    arrow: true,
+    theme: 'my-tooltip',
+  });
