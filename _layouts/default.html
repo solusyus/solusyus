@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+  
+<body>
+  {% include header.html %}
 
+  <main>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+  
+  <!-- Highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+</html>
