@@ -5,3 +5,14 @@
   color: #1e66f5;
   -webkit-tap-highlight-color: transparent;
 }
+@font-face {
+  font-family: 'DMSans';
+  src: url('/assets/fonts/DMSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Example usage */
+body {
+  font-family: 'DMSans', sans-serif;
+}
