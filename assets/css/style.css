@@ -13,11 +13,11 @@
 }
 
 .tippy-box[data-theme~='my-tooltip'][data-placement^='top'] > .tippy-arrow::before {
-  border-top-color: transparent;
+  border-top-color: #4f4f4f;
 }
 
 .tippy-box[data-theme~='my-tooltip'][data-placement^='bottom'] > .tippy-arrow::before {
-  border-bottom-color: transparent;
+  border-bottom-color: #4f4f4f;
 }
 
 .tooltip {
