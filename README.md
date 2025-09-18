@@ -1,1 +1,1 @@
-I am **solusyus**. I am a human from 21st century. I like science, history, philosophy, photography, writing, filmmaking, art, programming & animation. My mind is usually full of random thoughts and always restless but I like it and try to survive with it.
+I am **solusyus**. I am a human from 21st century. I like __science__, history, philosophy, photography, writing, filmmaking, art, programming & animation. My mind is usually full of random thoughts and always restless but I like it and try to survive with it.
