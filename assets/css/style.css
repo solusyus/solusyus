@@ -62,7 +62,7 @@ header {
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  display: none; /* flex */
+  display: flex; /* flex */
   z-index: 2000;
   border-radius: 0;
   border: 0px solid var(--headerBorder);
