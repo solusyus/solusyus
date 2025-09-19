@@ -1,20 +1,49 @@
+:root {
+
+/* color-scheme-default */
+  --accent: #1e66f5;
+}
+
+body {
+  font-family: 'DMSans', sans-serif; 
+}
+
+body * {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+blockquote,
+pre,
+code,
+img {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 #title {
   padding: 0;
   margin: 0 0 0 4vw;
   cursor: pointer;
-  color: #1e66f5;
+  color: var(--accent);
   -webkit-tap-highlight-color: transparent;
 }
+
+#title a {
+  all: unset;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: 'DMSans';
   src: url('assets/fonts/DMSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
-
-/* Example usage */
-body {
-  font-family: 'DMSans', sans-serif;
 }
 
 .tippy-box[data-theme~='my-tooltip'] {
