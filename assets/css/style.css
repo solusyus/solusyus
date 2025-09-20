@@ -324,6 +324,10 @@ aside {
 details aside {
   margin-right: 0;
 }
+details pre {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 details h1,
 details h2,
