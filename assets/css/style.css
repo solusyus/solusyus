@@ -42,7 +42,7 @@ font-size: 14px;
 }
 
 body {
-  font-family: DMSans;
+  font-family: dmsans;
   padding: var(--padding);
   margin: var(--margin);
   display: flex;
@@ -90,7 +90,7 @@ pre {
 header {
   color: var(--accent);
   background-color: transparent;
-  font-family: EBGaramond;
+  font-family: ebgaramond;
   position: top;
   opacity: 1;
   top: 0;
@@ -210,7 +210,7 @@ blockquote {
   margin-bottom: 1rem;
   text-align: left;
   font-style: normal;
-  font-family: EBGaramond;
+  font-family: ebgaramond;
 }
 
 pre code.hljs {
