@@ -9,18 +9,17 @@ font-size: 14px;
   --ftr: #1e66f5;
   --ftrBG: #eaefef;
   --hdrBorder: transparent;
-  --captionColor: #5f6f7f;
+  --captionColor: ##6f6f6f;
   --scrollBG: #00ff00;
   --scrollColor: #ffffff;
   --bqBG: #000000;
   --bqColor: #ffffff;
   --hrColor: #fe640b;
-  --tltp: #5a6f7f;
-  --tltpBG: #eaefef;
+  --tltp: #000000;
+  --tltpBG:#ffffff;
   --precodeBorder: #dadfdf;
   --codeColor: #1e66f5;
   --codeBGColor: #f6f6f6;
-  --black: #000000;
   --spoilerBG: #000000;
   --spoiledColor: ##000000;
   --spoiledBG: #f6f6f6;
@@ -36,7 +35,7 @@ font-size: 14px;
   --tr-color: #000000;
   --tr-highlight: #1e66f5;
   --tr-border: #f3f3f3;
-  --noteColor: #5f6f7f;
+  --noteColor: #6f6f6f;
   --noteBGColor: transparent;
   --noteBorderColor: #fe640b;
 }
@@ -143,7 +142,7 @@ a {
 }
 a:active {
   color: var(--bodyBG);
-  background-color: var(--black);
+  background-color: var(--bodyColor;
   text-decoration: dotted underline;
 }
 ::selection { 
