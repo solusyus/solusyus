@@ -270,7 +270,7 @@ marks {
 table {
     width: auto;
     border-collapse: collapse;
-    font-size: .8rem;
+    font-size: 1rem;
     border-radius: 0;
     background-color: var(--table-bg);
     color: var(--table-color);
