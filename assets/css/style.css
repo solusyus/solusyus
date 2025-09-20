@@ -255,7 +255,10 @@ ovr {
   text-decoration-color: auto;
   text-decoration-style: wavy;
   text-decoration-thickness: auto;
-}
+  display: inline-block;
+  border-top: 2px solid;
+  padding-top: 2px;
+  }
 marks {
   color: var(--marksColor);
   background: repeating-linear-gradient(
