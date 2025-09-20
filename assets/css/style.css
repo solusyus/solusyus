@@ -41,23 +41,13 @@ font-size: 14px;
   --noteBorderColor: #445566;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
   display: flex;
   flex-direction: column;
 }
-
 main {
   flex: 1; /* takes up remaining space */
 }
-
-footer {
-  margin-top: auto; /* pushes footer to bottom */
-    }
 body {
   font-family: dmsans;
   padding: var(--padding);
@@ -71,7 +61,10 @@ main > * {
   margin-right: 4vw;
 }
 
-
+.content {
+  flex: 1;
+}
+  
 main > img,
 main > blockquote {
   margin-left: 0;
