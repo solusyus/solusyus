@@ -142,12 +142,12 @@ a {
 }
 a:active {
   color: var(--bodyBG);
-  background-color: var(--bodyColor;
+  background-color: var(--bodyColor);
   text-decoration: dotted underline;
 }
 ::selection { 
   background: var(--accent);
-  color: Var(--bodyBG);
+  color: var(--bodyBG);
 }
 ::-moz-selection { 
   background: var(--accent);
