@@ -36,9 +36,9 @@ font-size: 14px;
   --tr-color: #000000;
   --tr-highlight: #1e66f5;
   --tr-border: #f3f3f3;
-  --noteColor: #445566;
-  --noteBGColor: #eaefef;
-  --noteBorderColor: #445566;
+  --noteColor: #5f6f7f;
+  --noteBGColor: transparent;
+  --noteBorderColor: ##fe640b;
 }
 
 body {
