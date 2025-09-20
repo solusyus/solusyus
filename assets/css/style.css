@@ -316,9 +316,9 @@ aside {
   margin-left: .5rem;
   margin-right: 4vw;
   float: right;
-  border: 1px solid #cfcfcf;
-  color: #1e66f5;
-  background-color: #efefef;
+  border: 1px solid transparent; /*cfcfcf */
+  color: #ffffff;
+  background-color: #1e66f5;
   border-radius: 0px;
 }
 details aside {
