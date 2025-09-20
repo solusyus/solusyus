@@ -41,12 +41,27 @@ font-size: 14px;
   --noteBorderColor: #445566;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* takes up remaining space */
+}
+
+footer {
+  margin-top: auto; /* pushes footer to bottom */
+    }
 body {
   font-family: dmsans;
   padding: var(--padding);
   margin: var(--margin);
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   background-color: var(--bodyBG);
   color: var(--bodyColor);
@@ -64,10 +79,6 @@ main > blockquote {
   width: 100%;
   max-width: 100vw;
   box-sizing: border-box;
-}
-
-.content {
-  flex: 1;
 }
 
 pre {
